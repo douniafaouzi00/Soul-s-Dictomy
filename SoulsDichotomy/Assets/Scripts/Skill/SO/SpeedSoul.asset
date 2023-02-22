@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3f6875cf4827d41beb59886966c061, type: 3}
+  m_Name: SpeedSoul
+  m_EditorClassIdentifier: 
+  nameS: SpeedUpSoul
+  description: The soul can finally go faster!
+  imageActive: {fileID: 21300000, guid: 664f2ce76def45c4088893068bef99a2, type: 3}
+  imageNotActive: {fileID: -2852731145210388948, guid: 3cf94fb7a3d60f34eac3b7edc9c709f9, type: 3}
+  isUnlock: 0
+  levelUnlock: 14
+  affectPlayer: 0
+  affectSoul: 1
+  newMoveSpeed: 7

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4736799983923435423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4736799983923435421}
+  - component: {fileID: 4736799983923435422}
+  m_Layer: 0
+  m_Name: LevelStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4736799983923435421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4736799983923435423}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4736799983923435422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4736799983923435423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cddca0660fe07b4dba792e7f069fe1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 3022259299030147086, guid: 722d28c1c2798334393bd3f857c3e85f, type: 3}
+  skillManager: {fileID: 807789989648588978, guid: 5e6f160e51e61a546a56ba02305b6241, type: 3}
+  player: {fileID: 3838318379822696181, guid: d868a02f5e73f2f4795a1d2a9d8b699f, type: 3}
+  soul: {fileID: 1063387739299351, guid: 59c5a00328c0d6449a8233b1dac901ca, type: 3}
+  cameraFollow: {fileID: 2528223474699797550, guid: ce58f10b3f00f514cb9e082f7679e53d, type: 3}
+  eventSystem: {fileID: 1927222454012640030, guid: fb8226bf441db5f4abc2974a31bfe52a, type: 3}
+  skillMenu: {fileID: 6406254377182245634, guid: d75ce163ba7853c47a3ea7285a764010, type: 3}
+  gameOverMenu: {fileID: 8101553102666416332, guid: 83133166fb1e6814f92b7ff0793d2191, type: 3}
+  UIPanel: {fileID: 5680616450891147290, guid: 5508df6282a9be14f8af325439fb0ea4, type: 3}
+  InGameMenu: {fileID: 5904953957323603611, guid: 0896a4484f9e55a41b01b5f3e7426d1b, type: 3}
+  loadCanvas: {fileID: 1954407636808559986, guid: 04be03872363d8c47b5381a588f83118, type: 3}
+  settingMenu: {fileID: 8426561897251919590, guid: f02b8c8a733a1714baf5786a8146ca29, type: 3}
